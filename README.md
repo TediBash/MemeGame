@@ -2,6 +2,11 @@
 # Exam #N: "MEME GAME"
 ## Student: s333503 BASHURI TEDI 
 
+## Start
+Open 2 terminals
+cd client --> npm run dev
+cd server --> node .\server.mjs
+
 ## React Client Application Routes
 - Each route includes the NavHeader Component 
 - Route `/`: Home, Show the button start game!
