@@ -1,0 +1,35 @@
+.profile {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .profile:hover {
+    color: orange;
+  }
+  
+  .profile::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .profile i{
+    margin-left:1rem;
+  }
+  
+
+  .navbar{
+    z-index: 3;
+  }

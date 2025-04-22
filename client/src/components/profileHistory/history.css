@@ -1,0 +1,18 @@
+.history-container{
+    width: 100%;
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.game-accordion{
+    margin-bottom: 1rem;
+    width: 65%;
+}
+
+.body-accordion{
+    background: #0c0c1d;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.timer-box{
+    padding: 3rem;
+    /*border: 5px solid #ff63d8;
+    border-radius: 50%;*/
+    font-size:40pt;
+    font-weight: bold;
+    color: #ffd707;
+    width: 50%;
+}

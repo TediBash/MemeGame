@@ -1,0 +1,22 @@
+.resume-history{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-title{
+    font-size: 60pt;
+    margin-top: 3rem;
+}
+
+.green-points{
+    color: lightgreen;
+}
+
+.red-points{
+    color: red;
+}
+
+.resume-points{
+    font-size: 20pt;
+}
